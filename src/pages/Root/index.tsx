@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
 
 const Root = () => (
-    <div style={{ height: '100vh' }}>
+    <main className="h-screen">
         <Outlet />
-    </div>
+    </main>
 )
 
 export default Root;
